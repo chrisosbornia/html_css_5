@@ -22,7 +22,7 @@ header {
   border-top: 0.5em solid 
 navy;
   box-shadow: 0 5px 10px 
-rgba(0,0,0,.1);
+rgba(0,0,0,.2);
 }
 
 #header-grid {
@@ -39,10 +39,10 @@ rgba(0,0,0,.1);
 #header-logo {
   grid-area: header-logo;
   text-align: center;
-  padding: 15px 0;
+  padding: 15px 0; /* Adds space on the top and bottom of the div */
 }
 
-header nav a {
+header nav a { /* These styles apply to a tags inside a nav inside the header */
   display: inline-block;
   text-decoration: none;
   color: 
@@ -80,7 +80,7 @@ navy;
 deepskyblue;
 }
 
-#header-contact-mobile-nav {
+#header-contact-mobile-nav { /* Contact Button */
   grid-area: header-contact-mobile-nav;
   background-color: 
 navy;
@@ -141,7 +141,7 @@ deepskyblue;
 deepskyblue;
   color: 
 white;
-  padding: 0.75em 1.5em !important;
+  padding: 0.75em 1.5em !important; /*adds space between border and text. this code adds more space on the left/right than on top */
 }
 
 .btn.header-btn {
