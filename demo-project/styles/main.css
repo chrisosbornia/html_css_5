@@ -84,16 +84,17 @@ deepskyblue;
   grid-area: header-contact-mobile-nav;
   background-color: 
 navy;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: flex; /* places the contact button and mobile nav on the same horizontal line */
+  justify-content: space-between; /*places the contact button on the left and */
+  align-items: center; /* vertically centers the contact button */
 }
 
 #mobile-nav {
-  color: 
-white;
+  color: white;
   padding: 0.5em;
   cursor: pointer;
+  font-size: 1.5em; /*makes the navigation icon bigger */
+  display: inline-block;
 }
 
 #header-bottom-nav {
